@@ -4,6 +4,7 @@ struct _letra{
 	char contenido;
 	struct _letra *siguiente;
 	struct _letra *anterior;
+	int a=1;
 };
 
 struct _letra * primera, *ultima;
